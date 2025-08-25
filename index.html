@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanha Services</title>
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif;}
+
+    body {background: #f5f7fa; color: #333; line-height: 1.6;}
+
+    /* Navbar */
+    header {
+      background: linear-gradient(90deg, #005bea, #00c6fb);
+      color: white;
+      padding: 15px 50px;
+      position: fixed;
+      width: 100%;
+      top: 0; left: 0;
+      z-index: 1000;
+      display: flex; justify-content: space-between; align-items: center;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    }
+    header h1 {font-size: 26px;}
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {color: yellow;}
+
+    /* Hero Section */
+    .hero {
+      height: 100vh;
+      background: url('https://img.freepik.com/premium-photo/professional-cleaning-staff-team-uniforms-with-tools_1028938-154965.jpg') center/cover no-repeat;
+      display: flex; flex-direction: column; justify-content: center; align-items: center;
+      color: white; text-align: center;
+      padding-top: 60px;
+    }
+    .hero h2 {font-size: 48px; margin-bottom: 20px; text-shadow: 2px 2px 6px rgba(0,0,0,0.6);}
+    .hero p {font-size: 22px; background: rgba(0,0,0,0.5); padding: 10px 20px; border-radius: 8px;}
+
+    /* Sections */
+    section {padding: 80px 50px; text-align: center;}
+    section h2 {font-size: 32px; margin-bottom: 20px; color: #005bea;}
+    section p {max-width: 800px; margin: auto; margin-bottom: 40px;}
+
+    /* Services */
+    .services {display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;}
+    .card {
+      background: white; padding: 20px; border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    .card:hover {transform: translateY(-5px);}
+    .card img {width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;}
+    .card h3 {margin-bottom: 10px; color: #333;}
+
+    /* Contact */
+    .contact-info {font-size: 18px; line-height: 2;}
+    .contact-info a {color: #005bea; text-decoration: none; font-weight: bold;}
+
+    /* Footer */
+    footer {
+      background: #003c8f; color: white; padding: 20px;
+      text-align: center; margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <h1>Kanha Services</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Get Hassle Free Services</h2>
+    <p>Reliable Manpower Solutions for Hotels, Hospitals, Security & Cleaning</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Welcome to <b>Kanha Services</b>, your trusted partner for professional manpower solutions. 
+      We provide well-trained staff for Hotels, Restaurants, Hospitals, Security, and Cleaning 
+      to ensure smooth operations and peace of mind.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <img src="https://img.freepik.com/free-photo/portrait-cheerful-waitress-holding-serving-tray_23-2148891030.jpg" alt="Hotel Staff">
+        <h3>Hotel & Restaurant Staff</h3>
+        <p>Trained waiters, chefs, and helpers for restaurants and hotels.</p>
+      </div>
+      <div class="card">
+        <img src="https://img.freepik.com/free-photo/medium-shot-nurse-with-elder-patient_23-2148974178.jpg" alt="Hospital Staff">
+        <h3>Hospital Staff</h3>
+        <p>Reliable nurses, attendants, and helpers for hospitals & clinics.</p>
+      </div>
+      <div class="card">
+        <img src="https://img.freepik.com/free-photo/medium-shot-security-guard-uniform_23-2149827175.jpg" alt="Security Guard">
+        <h3>Security Guards</h3>
+        <p>Professional and trained security guards for safety and protection.</p>
+      </div>
+      <div class="card">
+        <img src="https://img.freepik.com/free-photo/female-cleaning-worker-with-bucket-tools_23-2148462513.jpg" alt="Cleaning Staff">
+        <h3>Cleaning Staff</h3>
+        <p>Efficient cleaning staff for homes, offices, and commercial spaces.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      📞 Jitendra Yadav: <a href="tel:9457322422">9457322422</a><br>
+      📞 Manish: <a href="tel:8171515907">8171515907</a><br>
+      📧 Email: <a href="mailto:kanhaservices2025@gmail.com">kanhaservices2025@gmail.com</a><br>
+      📍 Address: Shop No.5, Jain Temple, Hanuman Complex, Indra Puram, Agra
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Kanha Services | Designed with ❤️</p>
+  </footer>
+
+</body>
+</html>
